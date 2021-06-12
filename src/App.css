@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @font-face {
   font-family: "NeueMontreal";
-  src: url("../assets/NeueMontreal-Regular.otf");
+  src: url("./assets/NeueMontreal-Regular.otf");
 }
 /* Neue Montreal is free for personal use - this is a personal portfolio, for commercial use licensing, visit: https://pangrampangram.com/products/neue-montreal?variant=32840648097846 */
 :root {
@@ -11,4 +11,3 @@
   --purple: #564a72;
   --mustard: #d3802f;
 }
-  
