@@ -7,8 +7,9 @@ function Skills() {
     "Bootstrap",
     "Reactstrap",
     "Python",
-    "Private Routes and Authorization",
     "NPM",
+    "Cypress.io",
+    "Jest Testing",
   ];
   const backEndSkills = [
     "Node JS",
