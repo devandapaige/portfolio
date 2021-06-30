@@ -32,26 +32,44 @@ function Skills() {
     <div id="skills">
       <h2>Skills</h2>
       <h3>Front End</h3>
-      <div>
+      <div className="frontEndSkills skills">
         {frontEndSkills.map((skill) => (
-          <p className="frontEndSkills">{skill}</p>
+          <p>{skill}</p>
         ))}
       </div>
       <h3>Back End</h3>
-      <div>
+      <div className="backEndSkills skills">
         {backEndSkills.map((skill) => (
-          <p className="backEndSkills">{skill}</p>
+          <p>{skill}</p>
         ))}
       </div>
       <h3>Design</h3>
-      <div>
+      <div className="designSkills skills">
         {designSkills.map((skill) => (
-          <p className="designSkills">{skill}</p>
+          <p>{skill}</p>
         ))}
       </div>
-      <button>LinkedIn</button>
-      <button>Resume</button>
-      <button>References</button>
+      <div className="skillsBtns">
+        <a
+          href="https://www.linkedin.com/in/devandapaige/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <button>LinkedIn</button>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1aK3E32O6mK1ENofCxlJpDy5VZBkoGcGn/view?usp=sharing"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <button>Resume</button>
+        </a>
+        {/*<a
+          href=""
+          rel="noreferrer"
+          target="_blank"
+        ><button>References</button></a>*/}
+      </div>
     </div>
   );
 }

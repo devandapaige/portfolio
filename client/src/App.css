@@ -11,3 +11,160 @@
   --pale-pink: #f6ebe0;
   --purple: #564a72;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "NeueMontreal";
+}
+h1 {
+  font-family: "Cinzel";
+  letter-spacing: 12px;
+  font-size: 2.5rem;
+}
+
+/* --- HEADER --- */
+
+header nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 1rem;
+}
+nav li {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+  width: 20%;
+  border-bottom: #fff 4px solid;
+}
+nav li button {
+  color: var(--black-green);
+  background: none;
+  border: none;
+  text-align: center;
+  font-size: medium;
+  margin: 0 auto;
+  display: block;
+  font-weight: 600;
+}
+nav li:hover {
+  border-bottom: var(--main-green) 4px solid;
+}
+nav li:hover button,
+a {
+  cursor: pointer;
+  color: var(--main-green);
+}
+nav li a {
+  text-decoration: none;
+}
+.siteTitlePhoto {
+  padding: 4rem;
+  background-image: url(./assets/header1.jpg);
+  background-position: 50% 80%;
+}
+.siteTitle {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  letter-spacing: 1px;
+}
+
+/* --- ABOUT --- */
+
+.aboutSection {
+  padding: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.aboutSection img {
+  max-width: 35%;
+  margin: auto;
+}
+.aboutText {
+  margin: 2rem;
+}
+
+/* --- SOCIAL ICONS --- */
+
+.socialIcons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 1rem 7rem;
+}
+
+/* --- PROJECTS --- */
+#projects {
+  margin: 1rem;
+}
+#projects h2 {
+  text-align: center;
+}
+
+/* --- SKILLS --- */
+
+#skills {
+  margin: 0 25%;
+}
+
+.skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.skills p {
+  border-radius: 7px;
+  padding: 0.4rem;
+  margin: 0.6rem;
+}
+.frontEndSkills p {
+  color: white;
+  background-color: var(--main-green);
+}
+.backEndSkills p {
+  color: white;
+  background-color: var(--mustard);
+}
+.designSkills p {
+  color: white;
+  background-color: var(--purple);
+}
+.skillsBtns {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 5rem 25%;
+  justify-content: space-evenly;
+}
+.skillsBtns button {
+  cursor: pointer;
+  padding: 1rem;
+  border: var(--main-green) solid 2px;
+  background-color: var(--black-green);
+  color: white;
+  font-weight: 700;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 3px #888888;
+}
+
+/* --- CONTACT --- */
+
+#contact {
+  padding: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  text-align: right;
+  margin: 0 15rem;
+}
+#contactImg {
+  max-height: 20rem;
+  margin: auto;
+}
+
+/* --- FOOTER --- */

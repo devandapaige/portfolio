@@ -1,20 +1,28 @@
-import './App.css';
-import Header from "./components/Header"
-import About from "./components/About"
-import ProjectsSection from "./components/ProjectsSection"
-import Skills from "./components/Skills"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import "./App.css";
+import Header from "./components/Header";
+import About from "./components/About";
+import ProjectsSection from "./components/ProjectsSection";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import SocialIcons from "./components/SocialIcons";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Header />
-      <About />
-      <ProjectsSection />
-      <Skills />
-      <Contact />
-      <Footer />
+      <header>
+        <Header />
+      </header>
+      <main>
+        <About />
+        <ProjectsSection />
+        <Skills />
+        <Contact />
+      </main>
+      <footer>
+        <SocialIcons />
+        <Footer />
+      </footer>
     </div>
   );
 }
