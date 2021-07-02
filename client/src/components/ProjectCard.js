@@ -16,7 +16,7 @@ function ProjectCard(props) {
         </button>
       </SwiperSlide>
     );
-  } else {
+  } else if (props.link) {
     return (
       <SwiperSlide>
         <img src={props.photo_src} alt={props.title} />

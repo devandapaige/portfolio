@@ -20,13 +20,14 @@ body {
 }
 h1 {
   font-family: "Cinzel";
-  letter-spacing: 12px;
   font-size: 2.5rem;
+  letter-spacing: 12px;
 }
 
 /* --- HEADER --- */
 
 header nav ul {
+  background-color: var(--pale-pink);
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
@@ -34,60 +35,72 @@ header nav ul {
   padding: 1rem;
 }
 nav li {
+  border-bottom: var(--pale-pink) 4px solid;
   list-style-type: none;
-  padding: 1rem;
   margin: 0;
+  padding: 1rem;
   width: 20%;
-  border-bottom: #fff 4px solid;
 }
 nav li button {
-  color: var(--black-green);
   background: none;
   border: none;
-  text-align: center;
-  font-size: medium;
-  margin: 0 auto;
+  color: var(--black-green);
   display: block;
+  font-size: medium;
   font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
 }
 nav li:hover {
   border-bottom: var(--main-green) 4px solid;
 }
 nav li:hover button,
 a {
-  cursor: pointer;
   color: var(--main-green);
+  cursor: pointer;
 }
 nav li a {
   text-decoration: none;
 }
 .siteTitlePhoto {
-  padding: 4rem;
   background-image: url(./assets/header1.jpg);
   background-position: 50% 80%;
+  padding: 4rem;
 }
 .siteTitle {
+  color: white;
+  letter-spacing: 1px;
   padding: 1rem;
   text-align: center;
-  color: white;
   text-shadow: 2px 2px 8px #000;
-  letter-spacing: 1px;
 }
 
 /* --- ABOUT --- */
-
 .aboutSection {
-  padding: 3rem;
+  background-color: var(--black-green);
+  color: white;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  padding: 3rem;
 }
 .aboutSection img {
-  max-width: 35%;
+  border-radius: 1rem;
+  border: solid 1rem var(--mustard);
+  box-shadow: 2px 2px 8px var(--main-green);
   margin: auto;
+  max-width: 35%;
+}
+.aboutSection h2 {
+  border-bottom: var(--purple) solid 5px;
+  padding: 0.6rem 0.3rem;
+  width: fit-content;
 }
 .aboutText {
   margin: 2rem;
+}
+.aboutText p {
+  line-height: 1.5;
 }
 
 /* --- SOCIAL ICONS --- */
@@ -96,7 +109,12 @@ nav li a {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  padding: 1rem 7rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 50%;
+}
+.socialIcons img {
+  color: var(--main-green);
 }
 
 /* --- PROJECTS --- */
@@ -104,13 +122,22 @@ nav li a {
   margin: 1rem;
 }
 #projects h2 {
+  border-bottom: var(--purple) solid 5px;
+  margin: 0 auto;
+  padding: 0.6rem 0.3rem;
   text-align: center;
+  width: fit-content;
 }
 
 /* --- SKILLS --- */
 
 #skills {
   margin: 0 25%;
+}
+#skills h2 {
+  border-bottom: var(--purple) solid 5px;
+  padding: 0.6rem 0.3rem;
+  width: fit-content;
 }
 
 .skills {
@@ -120,51 +147,94 @@ nav li a {
 }
 .skills p {
   border-radius: 7px;
-  padding: 0.4rem;
   margin: 0.6rem;
+  padding: 0.4rem;
 }
 .frontEndSkills p {
-  color: white;
   background-color: var(--main-green);
+  color: white;
 }
 .backEndSkills p {
-  color: white;
   background-color: var(--mustard);
+  color: white;
 }
 .designSkills p {
-  color: white;
   background-color: var(--purple);
+  color: white;
+}
+.recruiter {
+  margin: 2rem 10%;
+  text-align: center;
+}
+.recruiter span {
+  color: var(--main-green);
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem auto;
 }
 .skillsBtns {
   display: flex;
   flex-flow: row nowrap;
-  margin: 5rem 25%;
   justify-content: space-evenly;
+  margin: 0 25% 5rem;
 }
 .skillsBtns button {
-  cursor: pointer;
-  padding: 1rem;
-  border: var(--main-green) solid 2px;
   background-color: var(--black-green);
-  color: white;
-  font-weight: 700;
   border-radius: 1rem;
+  border: var(--main-green) solid 2px;
   box-shadow: 2px 2px 3px #888888;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 1rem;
 }
 
 /* --- CONTACT --- */
 
 #contact {
-  padding: 3rem;
+  background-color: var(--pale-pink);
+  border-radius: 2rem;
+  box-shadow: 3px 3px 10px var(--main-green);
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  text-align: right;
   margin: 0 15rem;
+  padding: 3rem;
+  text-align: right;
+}
+#contact h2 {
+  border-bottom: var(--purple) solid 5px;
+  padding: 0.6rem 0.3rem;
+  text-align: right;
+  width: fit-content;
 }
 #contactImg {
+  border-radius: 1rem;
+  border: solid 1rem var(--mustard);
+  box-shadow: 2px 2px 8px var(--main-green);
+  margin: auto 1rem;
   max-height: 20rem;
-  margin: auto;
 }
 
 /* --- FOOTER --- */
+#footer {
+  background-color: var(--black-green);
+  color: white;
+  padding: 1rem;
+}
+.line1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.credits {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#footer a {
+  color: var(--pale-pink);
+  text-decoration: none;
+}

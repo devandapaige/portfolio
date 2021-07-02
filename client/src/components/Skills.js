@@ -49,6 +49,10 @@ function Skills() {
           <p>{skill}</p>
         ))}
       </div>
+      <p className="recruiter">
+        <span>Are you a recruiter?</span><br />I'm currently on the market for a remote, full-time
+        position within the 75th Percentile of market Junior Developer salaries.
+      </p>
       <div className="skillsBtns">
         <a
           href="https://www.linkedin.com/in/devandapaige/"

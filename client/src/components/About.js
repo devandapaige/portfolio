@@ -14,19 +14,22 @@ function About() {
             🌲 Irish Pines Tree Farm Co-Owner
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            condimentum nec arcu non venenatis. Phasellus ultricies erat et
-            luctus fermentum. Etiam porta nisi id suscipit semper. Etiam
-            interdum hendrerit enim, in posuere purus lobortis molestie. Vivamus
-            ac mollis dolor. Aliquam id tristique mauris, sodales varius nibh.
-            Morbi molestie nibh vel lacus convallis iaculis sed id ipsum.
-            Pellentesque lectus diam, luctus eu lobortis sit amet, gravida et
-            elit. Vivamus convallis sollicitudin felis. Maecenas in ex
-            tincidunt, pretium ante sit amet, dictum velit. Vestibulum efficitur
-            risus vel pellentesque molestie. Nullam quam ligula, ullamcorper in
-            orci sit amet, efficitur convallis dui. Fusce congue metus at ligula
-            euismod posuere. Integer volutpat odio eu ligula eleifend, et
-            consequat quam ultrices. Praesent molestie eget ante nec suscipit.
+            It started with a SheCodes Workshop in mid-2020 and became a passion
+            for creating and engineering with Javascript.
+            <br />
+            In July 2021, I officially completed a part-time Full-Stack Web
+            Developer Certificate at Lambda School, focusing on the PERN
+            (PostgreSQL, Express, React, and Node.js) Stack. <br />
+            Creating my own React Applications, building APIs, and taking
+            projects from an idea to tangible websites have been beyond
+            rewarding. I cannot wait to work for a company on new features and
+            maintain their current projects.
+            <br />
+            When I'm not learning and coding, I like creating marketing
+            materials for the Float Zone. I'm always advocating floatation
+            therapy for others on their mental health and chronic health
+            journies. Occasionally I also escape to central Pennsylvania to my
+            family's tree farm I co-own.
           </p>
         </div>
       </div>
